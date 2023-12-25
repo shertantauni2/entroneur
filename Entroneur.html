@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Entroneur  </title>
+
+</head>
+
+<body>
+<style>
+p {
+  color: #0095B2;
+}
+
+body {
+ background-color:#C46D6D ;
+}
+
+#header {
+ background-color:#F3EED9;
+}
+.title {
+ color: #232322;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  border: 3px black; }
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#info {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+}
+.myButton {
+	box-shadow:inset -3px 0px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border-radius:4px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:15px;
+	padding:9px 100px;
+	text-decoration:none;
+	text-shadow:0px 2px 0px #854629;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #C98976 100%);
+	background-color:#bc3315;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+h4 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h2, h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#confirmation {
+	color: #0095B2
+}
+#pimg {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+}
+#container {
+  position: relative;
+}
+
+.ourworks {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+
+#shop { 
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+</style>
+
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("Do you Have Access to Your Mail Messages?")) {
+    txt = "Wait For Our Mail Soon!";
+  } else {
+    txt = "Please Input An Accessible Mail.";
+  }
+  document.getElementById("confirmation").innerHTML = txt;
+}
+function bfcFunction() {
+  alert("https://www.instagram.com/bestfriendcrewmusic/?hl=ar");
+
+  document.getElementById("img").innerHTML = txt;
+}
+function ohFunction() {
+  alert("https://www.instagram.com/osloub_hayah/?hl=ar");
+
+ 
+}
+function bsFunction() {
+  alert("https://www.instagram.com/back.spacetanta/?hl=ar");
+
+  
+}
+function bstFunction() {
+  alert("https://www.instagram.com/back_station/?hl=ar");
+
+
+}
+function creativeFunction() {
+  alert("https://www.instagram.com/creativeindmena/?hl=ar");
+
+ 
+}
+function HPFunction() {
+  alert("https://www.instagram.com/hult_prize_tanta/?hl=ar");
+
+}
+function tuFunction() {
+  alert("https://tanta.edu.eg/");
+
+}
+</script>
+
+<div id="header">
+
+	<img id="logo" src="imgs/logo.png" alt "ENTRONEUR" width="280" height="280">
+<div class="center">
+	<a href="#about" class="myButton">About Us</a>
+	<a href="#container" class="myButton">Our Work</a>
+	<a href="#partners" class="myButton">Partners</a>
+	<a href="#services" class="myButton">Services</a>
+	<a href="#contact" class="myButton">Contact</a>
+
+</div>
+<hr>
+
+
+<div id="about">
+<h2 class="title"> About us </h2>
+	<img id="info" src="imgs/about.png" alt "ABOUT" width="320" height="320">
+	<h3>
+	Our Vision
+	<h4>
+	
+		Harmonize Your Brand
+	
+	<h3>
+	Our Mission
+	<h4>
+	
+		Elevating The Brand Experience Through Directing  and Supervising Music and Sound Pieces That Aligns With The Brand Strategies To Provide A More Unique Customer Experience.
+	
+	<h3>
+	Our History
+	<h4>
+		Founded in 2021 By The Music Composer With +10 Years of Experience, (Sherif Ahmed). Entroneur Has Harmonized More Than 6 Various Brands and Entities Inside and Outside Egypt. In Governmental, Public and Private Sectors.
+	
+	
+</div>
+<br><hr>
+
+
+<div id="container">
+  <img id="shop" src="imgs/work.jpg" alt "sticker" width="1300" height="300">
+  <div class="ourworks">
+<p><b><a href="https://on.soundcloud.com/sWFvM"_blank">CHECK OUR WORK</a></b></p>
+</div>
+
+<hr>
+
+
+<div id="partners">
+	<h2 class="title"> Our Partners </h2>
+	<img src="imgs/bfcpartner.png" alt "partner" width="290" height="290" onclick="bfcFunction()">
+
+	<img src="imgs/ohpartner.png" alt "partner" width="210" height="210" onclick="ohFunction()">
+
+	<img src="imgs/bspartner.png" alt "partner" width="300" height="300" onclick="bsFunction()">
+	<img src="imgs/bstpartner.png" alt "partner" width="320" height="320" onclick="bstFunction()">
+	<img src="imgs/creativepartner.png" alt "partner" width="230" height="130" onclick="creativeFunction()">
+<br>
+	<img src="imgs/HP.jpg" alt "partner" width="230" height="230" onclick="HPFunction()">
+<br>
+	<img src="imgs/tu.jpg" alt "partner" width="230" height="230" onclick="tuFunction()">
+</div>
+
+<hr>
+
+
+<div id="services">
+	<h2 class="title"> Our Services </h2>
+
+	<img src="imgs/services.png" alt "services" width="890" height="490>
+</div>
+
+<hr><hr>
+
+<div id="contact">
+
+	<h3 class="title"> Contact Us! </h3>
+
+	<form action="D:\SQL PHP IG\MySql\htdocs\Entro.php" method="Post" target="">
+
+		<label for="name"> Your Name: </label>
+		<input id="name" type="text" name="Name" placeholder="Customer Name" required>
+<br><br>
+		<lable for="email"> Your Email: </label>
+		<input id="email" type="email" name="Email" Placeholder="CustomerMail@gmail.com" required>
+<br><br>
+		<label for="Phone"> Phone Number:</label>
+		<input id="Phone" type="text" name="Number" placeholder="0123456789" required>
+<br><br>
+		<p>
+		Subscribe to our Newsletter.
+		</p>
+		<input type="radio" id="newsletter" name="newsletter" value="Yes">
+  		<label for="html">Yes</label><br>
+		<input type="radio" id="newsletter" name="newsletter" value="No">
+  		<label for="html">No</label><br>
+<br>
+		<Button type="submit" onclick="myFunction()"> Submit </Button>
+<h3 id="confirmation"></h3>
+
+	</form>
+</div>
+
+	<br><br>    
+	<a href="https://www.instagram.com/entroneur.tu/?hl=ar"> Instagram </a>
+<br>
+	<a href="https://on.soundcloud.com/sWFvM"_blank"> Soundcloud </a>
+
+</div>
+
+</body>
+</html>
